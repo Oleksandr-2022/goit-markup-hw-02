@@ -10,6 +10,7 @@
   --button-navigation-color: #f5f4fa;
   --background-color: #f5f4fa;
   --item-color: #fff;
+  --button-word-color: #212121;
 }
 
 body {
@@ -36,6 +37,16 @@ a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14px;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color)
+}
+
+.link-tel{
+  color: var(--primary-text-color);
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4px;
   letter-spacing: 0.02em;
 }
 
@@ -166,12 +177,21 @@ a {
   letter-spacing: 0.06em;
 }
 
+.text-title {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88px;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
 .menu-list .link {
   color: var(--primary-text-color);
 }
 
 .menu-list .link:hover,
-.menu-list .link:focus {
+.menu-list .link:focus, {
   color: var(--accent-color);
 }
 
@@ -181,14 +201,12 @@ button {
 }
 
 .button {
-  background-color: var(--white-text-color);
-  color: var(--black-text-color);
-
+  background-color: var(--background-color);
+  color: var(--button-word-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-
   cursor: pointer;
 }
 
@@ -205,14 +223,13 @@ button {
 
 .button.primary:hover,
 .button.primary:focus {
-  background-color: var(--white-text-color);
-  color: var(--accent-color);
-  
+  background-color: var(--accent-color);
+  color: var(--white-text-color) 
 }
 
-.button.secondary {
-  background-color: var(--button-navigation-color);
-  color: var(--black-text-color);
+.button secondary .button {
+  background-color: var(--background-color);
+  color: var(--button-word-color);
 }
 
 .button.secondary:hover,
@@ -227,18 +244,41 @@ button {
   color: var(--white-text-color);
 }
 
-.addres {
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-}
+.addres-link {
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7px;
+    letter-spacing: 0.03em;
+    color: var(--white-text-color)
+  }
 
+.mail-link {
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7px;
+    letter-spacing: 0.03em;
+    color: var(--footer-link-color);
+}
+.tel-link{
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7px;
+    letter-spacing: 0.03em;
+    color: var(--footer-link-color);
+}
 /* .addres .addres-text {
   color: var(--white-text-color);
 } */
 
-.addres .addres-link {
+.addres{
   color: var(--footer-link-color);
+  
 }
 
 .addres .addres-link:hover,
