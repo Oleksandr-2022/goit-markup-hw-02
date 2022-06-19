@@ -255,7 +255,6 @@ button {
 
 .addres-link {
   font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -265,7 +264,6 @@ button {
 
 .mail-link {
   font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -274,7 +272,6 @@ button {
 }
 .tel-link{
   font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
