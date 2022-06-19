@@ -36,7 +36,7 @@ a {
 .link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color)
 }
@@ -46,7 +46,7 @@ a {
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.4px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -120,7 +120,7 @@ a {
 
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17px;
+  line-height: 1.17;
   text-align: center;
 }
 
@@ -181,7 +181,16 @@ a {
   font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.88px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.text-img{
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
@@ -249,7 +258,7 @@ button {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.7px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--white-text-color)
   }
@@ -259,7 +268,7 @@ button {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.7px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--footer-link-color);
 }
@@ -268,7 +277,7 @@ button {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.7px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--footer-link-color);
 }
