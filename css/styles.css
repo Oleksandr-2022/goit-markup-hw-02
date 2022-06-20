@@ -259,7 +259,8 @@ button {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--white-text-color)
+    color: var(--white-text-color);
+    font-style: normal;
   }
 
 .mail-link {
@@ -269,6 +270,7 @@ button {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--footer-link-color);
+    font-style: normal;
 }
 .tel-link{
   font-family: 'Roboto';
@@ -277,6 +279,7 @@ button {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--footer-link-color);
+    font-style: normal;
 }
 /* .addres .addres-text {
   color: var(--white-text-color);
@@ -284,7 +287,7 @@ button {
 
 .addres{
   color: var(--footer-link-color);
-  
+  font-style: normal
 }
 
 .addres .addres-link:hover,
